@@ -1,0 +1,90 @@
+/*Custom CSS*/
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+}
+
+.my-container-fluid{
+	background-color: #afeeee;
+	overflow: hidden;
+}
+
+section{
+	background-color: #fff;
+	border-bottom: 20px solid rgba(0,0,0,0.1);
+	padding-top: 20px;
+}
+
+#header{
+	background-color: rgba(0,0,0, 0.8);
+	color: #fff;
+	height: 120px;
+	line-height: 120px;
+}
+
+#header h1{
+	font-size: 60px;
+	font-weight: bold;
+	color: orange;
+}
+
+#jumbotron{
+	background-image: url('../assets/big_img.jpg');
+	background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+    background-position: center; 
+    height: 500px;
+}
+
+.hr{
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	padding: 10px 0 10px 0;
+}
+
+.bun{
+	padding:12px;
+	width: 50px;
+	text-align: center;
+	background-color: rgba(0,0,0, 0.8);
+	color: #fff;
+	border: 0;
+	border-radius:  40% 20% 40% 20%;
+
+}
+
+#mainpost{
+	height: 250px
+}
+
+#icons{
+	height: 230px;
+}
+
+#icons span{
+	font-weight: bold;
+	font-size: 22px;
+}
+
+#post1, #post2{
+	height: 300px;
+}
+
+#adspace{
+	background-color: #afeeee;
+	height: 150px
+
+}
+#post3{
+	height: 200px;
+}
+
+#footer{
+	background-color: rgba(0,0,0, 0.8);
+	color: orange;
+	/*height: 120px;
+	line-height: 120px;*/
+}
